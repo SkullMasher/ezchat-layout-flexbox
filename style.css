@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+}
+.app-groot {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: chartreuse;
+}
+
+.app-main {
+  flex: 1;
+  overflow-y: scroll;
+  background-color: dodgerblue;
+}
+
+.app-footer {
+  background-color: firebrick;
+}
+
+.content {
+  display: none;
+}
+
+.toggle-content {
+  display: block;
+}
